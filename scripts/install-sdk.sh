@@ -149,7 +149,7 @@ else
     export PATH="$C9_DIR/node/bin:$C9_DIR/node_modules/.bin:$PATH"
 fi
 NPM=npm
-NODE=node
+NODE=nodejs
 
 # cleanup build cache since c9.static doesn't do this automatically yet
 rm -rf ./build/standalone
